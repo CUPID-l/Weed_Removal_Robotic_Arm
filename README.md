@@ -358,7 +358,7 @@ Given pairs of camera pixel coordinates and corresponding robot coordinates, we 
 > robot_y = m2 * camera_y + c2
 
 *The m and c values are parameters(slopes and intercepts) of a linear equation that maps camera pixel coordinates to robot coordinates. They are essential because they let you convert any new pixel coordinate from the camera (e.g., from object detection) to a real-world coordinate in the robot's frame.*
-![Mathematical Exlanation](./images/explanation.png)
+![Mathematical Exlanation](./images/explanation.jpg)
 ### 2. AI Inference using API
 We used **llama-4-scout-17b-16e-instruct** model to enhance the vision capabilities of our project.
 #### llama-4-scout-17b-16e-instruct
